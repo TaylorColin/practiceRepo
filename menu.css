@@ -1,0 +1,112 @@
+/***************************************************
+
+
+
+
+***************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Saira Extra', helvetica, arial, sans-serif;
+}
+html, body{
+    background-color: #3E447E;
+}
+h1{
+    font-size: 6.854rem;
+    font-family: 'Vollkorn','Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+    padding: 0 2rem;
+}
+h2{
+    font-size: 4.23rem;
+    font-family: 'Vollkorn','Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    padding: 1rem 2rem;
+    text-align: center;
+    padding-top: 25px;
+}
+nav li{
+    font-size: 2.618rem;
+}
+p{
+/*  font-size: 1.618rem;*/
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #7B88FF;
+    color: #3E447F;
+}
+header{
+    border-bottom: 0.8rem solid #636DCC;
+    background-color: #64677F;
+    color: #3E447F;
+    text-align: center;
+}
+.menu-h{
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 0; 
+}
+    .menu-h li{
+        color: #3E447F;        
+        list-style: none;
+        display: inline-block;
+        width: 20%;
+        padding-top: 25px;
+    }
+    .menu-h a,
+    .menu-h a:link,        
+    .menu-h a:visited{
+        display: block;
+    }
+    .menu-h a:hover,
+    .menu-h a:active{ 
+        background-color: #64677f;
+        color: black;
+        text-shadow: 2px 2px white;
+    }
+.menu-v{
+    width: 20%;
+    float: left;
+    /* Eliminate spaces between li's */
+    font-size: 0; 
+}
+.menu-v li:first-child{
+    padding-top: 50px;
+}
+.menu-v li{
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+            display: block;
+        }
+        .menu-v a:hover,
+        .menu-v a:active{
+            background-color: #64677f;
+            color: white;
+            text-decoration: none;
+        }
+main{
+    font-size: 14px; 
+    width:80%;
+    float: right;
+    text-align: justify;
+}
+footer{
+    clear:both;
+}
